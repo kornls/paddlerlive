@@ -1,3 +1,3 @@
 # PaddlerGames Live Follower Counter
 
-*\[The title explains it]*
+*\[The title explains all of it]*
