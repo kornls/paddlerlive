@@ -22,7 +22,7 @@
     <h3>PaddlerGames currently has :</h3>
     <h1 id="followers">Loading…</h1>
     <h3>Followers</h3> <br>
-    <h3>#95 Globally</h3>
+    <h3>#94 Globally</h3>
 
     <br> <br>
 
@@ -30,10 +30,10 @@
 
     <br> <br>
 
-    <h3>ilhp10</h3>
+    <h3>DarkLava</h3>
     <h1 id="against">Loading...</h1>
     <h3>Followers</h3> <br>
-    <h3>#94 Globally</h3>
+    <h3>#93 Globally</h3>
   </center>
   <!-- Creates the text -->
   
@@ -44,7 +44,7 @@
       document.getElementById("followers").innerHTML = data["followers"];
     })
     
-    var upagainst = "ilhp10";
+    var upagainst = "DarkLava";
     fetch(`https://scratchdb.lefty.one/v2/user/info/${upagainst}`).then(res => res.json()).then(data => {
       console.log(data["followers"]);
       document.getElementById("against").innerHTML = data["followers"];
