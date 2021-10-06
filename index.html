@@ -22,7 +22,7 @@
     <h3>PaddlerGames currently has :</h3>
     <h1 id="followers">Loading…</h1>
     <h3>Followers</h3> <br>
-    <h3>#84 Globally</h3>
+    <h3>#75 Globally</h3>
 
     <br> <br>
 
@@ -30,10 +30,10 @@
 
     <br> <br>
 
-    <h3>Za-Chary</h3>
+    <h3>OmbraTheFurry2</h3>
     <h1 id="against">Loading...</h1>
     <h3>Followers</h3> <br>
-    <h3>#83 Globally</h3>
+    <h3>#74 Globally</h3>
   </center>
   <!-- Creates the text -->
   
@@ -44,7 +44,7 @@
       document.getElementById("followers").innerHTML = data["followers"];
     })
     
-    var upagainst = "Za-Chary";
+    var upagainst = "OmbraTheFurry2";
     fetch(`https://scratchdb.lefty.one/v2/user/info/${upagainst}`).then(res => res.json()).then(data => {
       console.log(data["followers"]);
       document.getElementById("against").innerHTML = data["followers"];
@@ -55,7 +55,7 @@
   <meta http-equiv="refresh" content="60">
   <!-- refreshes every minute to get the latest count -->
   
-<br>
+<br><br><br>
 <center><sub>©2021 KornRT2018 Productions. All rights reserved.</sub></center>
 <br>
 <!-- Copyright --> 
