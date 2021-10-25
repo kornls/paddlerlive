@@ -20,10 +20,9 @@
     <br> <br> <br>
 
     <h3>PaddlerGames currently has :</h3>
-    <!-- <h1 id="followers">Loading…</h1> -->
-    <h1>10000</h1>
+    <h1 id="followers">Loading…</h1>
     <h3>Followers</h3> <br>
-    <h3>#75 Globally</h3>
+    <h3>#64 Globally</h3>
 
     <br> <br>
 
@@ -31,9 +30,8 @@
 
     <br> <br>
 
-    <h3>OmbraTheFurry2</h3>
-    <!-- <h1 id="against">Loading...</h1> -->
-    <h1>10000</h1>
+    <h3>xamuil2</h3>
+    <h1 id="against">Loading...</h1>
     <h3>Followers</h3> <br>
     <h3>#74 Globally</h3>
   </center>
@@ -46,7 +44,7 @@
       document.getElementById("followers").innerHTML = data["followers"];
     })
     
-    var upagainst = "OmbraTheFurry2";
+    var upagainst = "xamuil2";
     fetch(`https://scratchdb.lefty.one/v2/user/info/${upagainst}`).then(res => res.json()).then(data => {
       console.log(data["followers"]);
       document.getElementById("against").innerHTML = data["followers"];
