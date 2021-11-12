@@ -3,17 +3,8 @@
 </head>
 <!-- Sets the title -->
 
-<style> 
-@font-face {
-   font-family: chirp;
-   src: url(gt-america.ttf);
-}
-
-* {
-   font-family: chirp;
-}
-</style>
-<!-- Sets the font -->
+<style> /* Light mode */ @media (prefers-color-scheme: light) { body { background-color: white; color: black; } } /* Dark mode */ @media (prefers-color-scheme: dark) { body { background-color: black; color: white; } } @font-face { font-family: font; src: url(gt-america.ttf); } * { font-family: font; } </style>
+<!-- Sets the font & style -->
 
 <body>
   <center>
@@ -22,7 +13,7 @@
     <h3>PaddlerGames currently has :</h3>
     <h1 id="followers">Loading…</h1>
     <h3>Followers</h3> <br>
-    <h3>#64 Globally</h3>
+    <h3>#58 Globally</h3>
 
     <br> <br>
 
@@ -30,10 +21,10 @@
 
     <br> <br>
 
-    <h3>xamuil2</h3>
+    <h3>TurboKitten</h3>
     <h1 id="against">Loading...</h1>
     <h3>Followers</h3> <br>
-    <h3>#74 Globally</h3>
+    <h3>#57 Globally</h3>
   </center>
   <!-- Creates the text -->
   
@@ -44,7 +35,7 @@
       document.getElementById("followers").innerHTML = data["followers"];
     })
     
-    var upagainst = "xamuil2";
+    var upagainst = "TurboKitten";
     fetch(`https://scratchdb.lefty.one/v2/user/info/${upagainst}`).then(res => res.json()).then(data => {
       console.log(data["followers"]);
       document.getElementById("against").innerHTML = data["followers"];
@@ -56,7 +47,7 @@
   <!-- refreshes every minute to get the latest count -->
   
 <br><br><br>
-<center><sub>©2021 KornRT2018 Productions. All rights reserved.</sub></center>
+<center><sub>©2021 KornRT2018 Productions. All rights reserved<a href="https://scratchstats.com/kaj/live">.</a></sub></center>
 <br>
 <!-- Copyright --> 
 
